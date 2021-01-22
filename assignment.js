@@ -1,3 +1,4 @@
+//https://github.com/hrebon/assignment-3
 function kilometerToMeter(kilo){
     if(kilo < 0)
     {
@@ -73,8 +74,6 @@ function megaFriend(names){
         if(Number(names[i])){
             return 'worng output';
         }
-        //var allfriends = names[i];
-        //var friends = allfriends.length;
         if(names[i].length >= bigname) 
         {
             bigname = names[i].length;
