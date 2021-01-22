@@ -13,15 +13,15 @@ console.log(resultForMeter);
 function budgetCalculator(watch,phone, laptop){
     if(watch<0)
     {
-        return 'worng input';
+        return 'worng Input';
     }
     else if(phone<0)
     {
-        return 'wrong input';
+        return 'wrong Input';
     }
     else if(laptop<0)
     {
-        return 'wrong input';
+        return 'wrong Input';
     }
     else
     {
@@ -38,7 +38,7 @@ console.log(totalcost);
 
 function hotelCost(day){
     if(day<0){
-        return 'worng input';
+        return 'wrong Input';
     }
     else if(day<=10)
     {
@@ -72,7 +72,7 @@ function megaFriend(names){
     for(var i=0;i<names.length;i++)
     {
         if(Number(names[i])){
-            return 'worng output';
+            return 'wrong Input';
         }
         if(names[i].length >= bigname) 
         {
