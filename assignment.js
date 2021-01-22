@@ -37,7 +37,7 @@ console.log(totalcost);
 
 
 function hotelCost(day){
-    if(day<0){
+    if(day<=0){
         return 'wrong Input';
     }
     else if(day<=10)
